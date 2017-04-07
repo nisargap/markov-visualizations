@@ -94,7 +94,7 @@ var graph = {
   }
 
     return (
-      <div className="App">
+      <div className="App" style={{textAlign: "center", margin: "0 auto"}}>
         <h1>Markov Visualizations</h1>
         <button onClick={this.getNextState}>Get next step</button>
         <h2>{this.state.path[0]} to {this.state.path[1]}</h2>
